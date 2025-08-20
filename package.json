@@ -3,7 +3,8 @@
   "displayName": "AutoPath",
   "description": "Automatically updates file paths in your code when files are moved or renamed.",
   "version": "0.0.1",
-  "publisher": "sarabrafique",
+  "publisher": "sarabcheema",
+  "preview": true,
   "license": "MIT",
   "engines": {
     "vscode": "^1.103.0"
