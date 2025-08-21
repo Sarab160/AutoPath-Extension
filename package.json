@@ -2,7 +2,7 @@
   "name": "autopath",
   "displayName": "AutoPath",
   "description": "Automatically updates file paths in your code when files are moved or renamed.",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "publisher": "sarabcheema",
   "preview": true,
   "license": "MIT",
