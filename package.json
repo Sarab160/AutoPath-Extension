@@ -2,15 +2,19 @@
   "name": "autopath",
   "displayName": "AutoPath",
   "description": "Automatically updates file paths in your code when files are moved or renamed.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "sarabcheema",
   "preview": true,
   "license": "MIT",
   "engines": {
     "vscode": "^1.103.0"
   },
-  "categories": ["Other"],
-  "activationEvents": ["*"],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./out/extension.js",
   "icon": "icon.png",
   "contributes": {},
