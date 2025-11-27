@@ -6,7 +6,7 @@ function normalizePath(p: string): string {
 }
 
 function escapePath(newPath: string, original: string): string {
-    // Preserve raw string and slash style
+    
     if (original.startsWith("r\"") || original.startsWith("r'")) {
         return "r\"" + newPath.replace(/\\/g, "\\") + "\"";
     }

@@ -13,11 +13,19 @@
     "Other"
   ],
   "activationEvents": [
+    "onCommand:autopath.fixBrokenPaths",
     "*"
   ],
   "main": "./out/extension.js",
   "icon": "icon.png",
-  "contributes": {},
+  "contributes": {
+    "commands": [
+      {
+        "command": "autopath.fixBrokenPaths",
+        "title": "AutoPath: Fix Broken Paths"
+      }
+    ]
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
