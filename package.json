@@ -2,28 +2,23 @@
   "name": "autopath",
   "displayName": "AutoPath",
   "description": "From VS Code to Windows Explorer, AutoPath keeps your file paths in perfect sync.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "sarabcheema",
   "preview": true,
   "license": "MIT",
-
   "engines": {
     "vscode": "^1.103.0"
   },
-
   "categories": [
     "Other"
   ],
-
   "main": "./out/extension.js",
   "icon": "icon.png",
-
   "activationEvents": [
     "*",
     "onStartupFinished",
     "onCommand:autopath.fixBrokenPaths"
   ],
-
   "contributes": {
     "commands": [
       {
@@ -32,24 +27,19 @@
       }
     ]
   },
-
   "dependencies": {
     "chokidar": "^3.5.3"
   },
-
   "bundledDependencies": [
     "chokidar"
   ],
-
   "scripts": {
-  "vscode:prepublish": "npm run compile",
-  "compile": "tsc -p ./",
-  "watch": "tsc -watch -p ./",
-  "pretest": "npm run compile",
-  "test": "node ./out/test/runTest.js"
-},
-
-
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
   "devDependencies": {
     "@types/vscode": "^1.103.0",
     "@types/mocha": "^10.0.10",
