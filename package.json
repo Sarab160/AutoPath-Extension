@@ -1,7 +1,7 @@
 {
   "name": "autopath",
   "displayName": "AutoPath",
-  "description": "From VS Code to Windows Explorer, AutoPath keeps your file paths in perfect sync.",
+  "description": "Automatically updates file paths in your code when files are moved or renamed.",
   "version": "0.3.1",
   "publisher": "sarabcheema",
   "preview": true,
